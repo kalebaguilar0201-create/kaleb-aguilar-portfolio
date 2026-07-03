@@ -1,0 +1,118 @@
+# Epitaxial Crystal Growth Simulation
+
+Monte Carlo simulation of epitaxial crystal growth using Solid-on-Solid and Zinc Blende models implemented in Python. This project explores the simulation of Molecular Beam Epitaxy (MBE) processes and evaluates the impact of parallel computing techniques on computational performance.
+
+> **Status:** Active academic project. Documentation and code organization are continuously being improved.
+
+---
+
+## Overview
+
+This repository contains the implementation developed during my undergraduate thesis in Physics Engineering.
+
+The project focuses on stochastic simulation of semiconductor crystal growth using two different atomistic models:
+
+- Solid-on-Solid (SOS)
+- Zinc Blende
+
+Additionally, the project evaluates GPU acceleration using Numba CUDA and compares the computational performance against serial implementations.
+
+---
+
+## Repository Structure
+
+```
+.
+├── notebooks/
+│   ├── Solid-on-Solid-simulation.ipynb
+│   └── ZincBlende-simulation.ipynb
+│
+├── results/
+│   ├── solid_on_solid-results/
+│   |__ ZincBlende-results/
+│   	
+│
+├── media/
+│   ├── figures/
+│   └── gifs/
+│
+├── docs/
+│   └── thesis.pdf
+│
+├── requirements.txt
+├── LICENSE
+└── README.md
+```
+
+---
+
+## Features
+
+- Monte Carlo crystal growth simulation
+- Solid-on-Solid surface model
+- Zinc Blende crystal model
+- Periodic boundary conditions
+- Surface roughness analysis
+- RHEED intensity estimation
+- GPU acceleration with Numba CUDA
+- Performance benchmarking
+
+---
+
+## Technologies
+
+- Python
+- NumPy
+- Numba
+- CUDA
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## Results
+
+The repository contains representative simulation outputs, including:
+
+- Crystal growth animations
+- Surface morphology evolution
+- RHEED oscillation plots
+- Surface roughness analysis
+- GPU vs CPU performance benchmarks
+
+Example outputs are available inside:
+
+```
+media/
+results/
+```
+
+---
+
+## Research Context
+
+This project was developed as part of my undergraduate thesis in Physics Engineering.
+
+The objective is to study stochastic semiconductor growth processes through atomistic simulations while exploring the benefits of parallel computing for computational physics.
+
+---
+
+## Future Work
+
+- Multi-GPU implementation
+- Improved RHEED modeling
+- Additional semiconductor materials
+- CUDA optimization
+- Statistical validation of growth models
+
+---
+
+## Author
+
+**Kaleb Aguilar**
+
+Physics Engineer  
+M.Sc. Student in Computer Science
+
+LinkedIn:
+https://linkedin.com/in/kaleb-aguilar-70971129a
