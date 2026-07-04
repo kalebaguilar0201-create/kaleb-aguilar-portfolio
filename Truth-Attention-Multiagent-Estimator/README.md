@@ -120,6 +120,14 @@ Metrics include:
 
 ---
 
+## Live Dashboard
+
+Explore per-robot performance estimates, match predictions, and EPA breakdowns interactively:
+
+**[Open Dashboard →](https://datastudio.google.com/reporting/d705f0af-2b10-4587-8c7f-2174319729b9)**
+
+---
+
 ## Repository Structure
 
 ```
